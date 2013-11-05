@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<table>
+  <base>CDM</base>
+  <class>Room</class>
+  <name>civicrm_room</name>
+  <comment>A civicrm room</comment>
+  <add>4.1</add>
+  <field>
+      <name>id</name>
+      <type>int unsigned</type>
+      <required>true</required>
+      <comment>Room ID</comment>
+      <add>4.1</add>
+  </field>
+  <primaryKey>
+       <name>id</name>
+       <autoincrement>true</autoincrement>
+  </primaryKey>
+  <field>
+       <name>label</name>
+       <type>varchar</type>
+       <length>40</length>
+       <required>true</required>
+       <comment>Room Label</comment>
+       <add>4.1</add>
+  </field>
+  <field>
+       <name>room_no</name>
+       <type>varchar</type>
+       <length>40</length>
+       <comment>Room Number</comment>
+       <add>4.1</add>
+  </field>
+  <field>
+       <name>floor</name>
+       <type>varchar</type>
+       <length>40</length>
+       <comment>Room Floor</comment>
+       <add>4.1</add>
+  </field>
+  <field>
+       <name>ext</name>
+       <type>varchar</type>
+       <length>40</length>
+       <comment>Room Extension</comment>
+       <add>4.1</add>
+  </field>
+</table>

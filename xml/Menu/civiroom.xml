@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<menu>
+  <item>
+     <path>civicrm/add-room-ext</path>
+     <page_callback>CDM_Form_Room_Add</page_callback>
+     <title>Add Room</title>
+     <is_public>true</is_public>
+  </item>
+  <item>
+     <path>civicrm/rooms/list</path>
+     <page_callback>CDM_Page_Room_List</page_callback>
+     <title>Civicrm Rooms</title>
+  </item>
+</menu>
